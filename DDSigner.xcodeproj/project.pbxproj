@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B439DF1D15A616F5009FD0F4 /* Appicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = B439DF1C15A616F5009FD0F4 /* Appicon.icns */; };
+		B4583C4A1587A14000E2E02A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4583C491587A14000E2E02A /* Cocoa.framework */; };
+		B4583C541587A14000E2E02A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4583C521587A14000E2E02A /* InfoPlist.strings */; };
+		B4583C561587A14000E2E02A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4583C551587A14000E2E02A /* main.m */; };
+		B4583C5A1587A14000E2E02A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B4583C581587A14000E2E02A /* Credits.rtf */; };
+		B4583C5D1587A14000E2E02A /* DDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4583C5C1587A14000E2E02A /* DDAppDelegate.m */; };
+		B4DC232F158844C9004F6698 /* DDAddressPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DC232E158844C9004F6698 /* DDAddressPicker.m */; };
+		B4DC233315884590004F6698 /* DDAddressPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4DC233115884590004F6698 /* DDAddressPicker.xib */; };
+		B4DC233415884590004F6698 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4DC233215884590004F6698 /* MainMenu.xib */; };
+		B4DC237D158850D0004F6698 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DC237C158850CF004F6698 /* Security.framework */; };
+		B4DC237F1588532F004F6698 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DC237E1588532F004F6698 /* AddressBook.framework */; };
+		B4F06B2E158AD82B00249913 /* DDSecureMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F06B2B158AD82B00249913 /* DDSecureMessage.m */; };
+		B4F06B2F158AD82B00249913 /* DDSecureMessageCoder_CMS.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F06B2D158AD82B00249913 /* DDSecureMessageCoder_CMS.m */; };
+		B4F06B35158AD88700249913 /* testmsg.txt in Resources */ = {isa = PBXBuildFile; fileRef = B4F06B34158AD88700249913 /* testmsg.txt */; };
+		B4F06B7E158B822B00249913 /* DDSecureMessageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F06B7D158B822B00249913 /* DDSecureMessageCoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B439DF1C15A616F5009FD0F4 /* Appicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Appicon.icns; path = ../Appicon.icns; sourceTree = "<group>"; };
+		B4583C451587A14000E2E02A /* DDSignerOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDSignerOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4583C491587A14000E2E02A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B4583C511587A14000E2E02A /* DDSignerOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDSignerOSX-Info.plist"; sourceTree = "<group>"; };
+		B4583C531587A14000E2E02A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4583C551587A14000E2E02A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4583C571587A14000E2E02A /* DDSignerOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDSignerOSX-Prefix.pch"; sourceTree = "<group>"; };
+		B4583C591587A14000E2E02A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		B4583C5B1587A14000E2E02A /* DDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDAppDelegate.h; sourceTree = "<group>"; };
+		B4583C5C1587A14000E2E02A /* DDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDAppDelegate.m; sourceTree = "<group>"; };
+		B4DC232D158844C9004F6698 /* DDAddressPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAddressPicker.h; sourceTree = "<group>"; };
+		B4DC232E158844C9004F6698 /* DDAddressPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAddressPicker.m; sourceTree = "<group>"; };
+		B4DC233115884590004F6698 /* DDAddressPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDAddressPicker.xib; sourceTree = "<group>"; };
+		B4DC233215884590004F6698 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		B4DC237C158850CF004F6698 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B4DC237E1588532F004F6698 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B4F06B2A158AD82B00249913 /* DDSecureMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSecureMessage.h; sourceTree = "<group>"; };
+		B4F06B2B158AD82B00249913 /* DDSecureMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSecureMessage.m; sourceTree = "<group>"; };
+		B4F06B2C158AD82B00249913 /* DDSecureMessageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSecureMessageCoder.h; sourceTree = "<group>"; };
+		B4F06B2D158AD82B00249913 /* DDSecureMessageCoder_CMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSecureMessageCoder_CMS.m; sourceTree = "<group>"; };
+		B4F06B34158AD88700249913 /* testmsg.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testmsg.txt; sourceTree = "<group>"; };
+		B4F06B7D158B822B00249913 /* DDSecureMessageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSecureMessageCoder.m; sourceTree = "<group>"; };
+		B4F06BA6158B844500249913 /* DDSecureMessageCoder_CMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSecureMessageCoder_CMS.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4583C421587A14000E2E02A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4DC237F1588532F004F6698 /* AddressBook.framework in Frameworks */,
+				B4DC237D158850D0004F6698 /* Security.framework in Frameworks */,
+				B4583C4A1587A14000E2E02A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4583C3A1587A13F00E2E02A = {
+			isa = PBXGroup;
+			children = (
+				B4F06B29158AD82B00249913 /* RFC_3852 */,
+				B4583C4F1587A14000E2E02A /* DDSignerOSX */,
+				B4583C481587A14000E2E02A /* Frameworks */,
+				B4583C461587A14000E2E02A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4583C461587A14000E2E02A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4583C451587A14000E2E02A /* DDSignerOSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4583C481587A14000E2E02A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4DC237E1588532F004F6698 /* AddressBook.framework */,
+				B4DC237C158850CF004F6698 /* Security.framework */,
+				B4583C491587A14000E2E02A /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4583C4F1587A14000E2E02A /* DDSignerOSX */ = {
+			isa = PBXGroup;
+			children = (
+				B439DF1C15A616F5009FD0F4 /* Appicon.icns */,
+				B4583C5B1587A14000E2E02A /* DDAppDelegate.h */,
+				B4583C5C1587A14000E2E02A /* DDAppDelegate.m */,
+				B4DC233215884590004F6698 /* MainMenu.xib */,
+				B4DC232D158844C9004F6698 /* DDAddressPicker.h */,
+				B4DC232E158844C9004F6698 /* DDAddressPicker.m */,
+				B4DC233115884590004F6698 /* DDAddressPicker.xib */,
+				B4583C501587A14000E2E02A /* Supporting Files */,
+			);
+			path = DDSignerOSX;
+			sourceTree = "<group>";
+		};
+		B4583C501587A14000E2E02A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4583C511587A14000E2E02A /* DDSignerOSX-Info.plist */,
+				B4583C521587A14000E2E02A /* InfoPlist.strings */,
+				B4583C551587A14000E2E02A /* main.m */,
+				B4583C571587A14000E2E02A /* DDSignerOSX-Prefix.pch */,
+				B4583C581587A14000E2E02A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4F06B29158AD82B00249913 /* RFC_3852 */ = {
+			isa = PBXGroup;
+			children = (
+				B4F06B34158AD88700249913 /* testmsg.txt */,
+				B4F06B2A158AD82B00249913 /* DDSecureMessage.h */,
+				B4F06B2B158AD82B00249913 /* DDSecureMessage.m */,
+				B4F06B2C158AD82B00249913 /* DDSecureMessageCoder.h */,
+				B4F06B7D158B822B00249913 /* DDSecureMessageCoder.m */,
+				B4F06BA6158B844500249913 /* DDSecureMessageCoder_CMS.h */,
+				B4F06B2D158AD82B00249913 /* DDSecureMessageCoder_CMS.m */,
+			);
+			path = RFC_3852;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4583C441587A14000E2E02A /* DDSignerOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4583C631587A14000E2E02A /* Build configuration list for PBXNativeTarget "DDSignerOSX" */;
+			buildPhases = (
+				B4583C411587A14000E2E02A /* Sources */,
+				B4583C421587A14000E2E02A /* Frameworks */,
+				B4583C431587A14000E2E02A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDSignerOSX;
+			productName = DDSignerOSX;
+			productReference = B4583C451587A14000E2E02A /* DDSignerOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4583C3C1587A13F00E2E02A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "doo GmbH";
+			};
+			buildConfigurationList = B4583C3F1587A13F00E2E02A /* Build configuration list for PBXProject "DDSigner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4583C3A1587A13F00E2E02A;
+			productRefGroup = B4583C461587A14000E2E02A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4583C441587A14000E2E02A /* DDSignerOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4583C431587A14000E2E02A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4583C541587A14000E2E02A /* InfoPlist.strings in Resources */,
+				B4583C5A1587A14000E2E02A /* Credits.rtf in Resources */,
+				B4DC233315884590004F6698 /* DDAddressPicker.xib in Resources */,
+				B4DC233415884590004F6698 /* MainMenu.xib in Resources */,
+				B4F06B35158AD88700249913 /* testmsg.txt in Resources */,
+				B439DF1D15A616F5009FD0F4 /* Appicon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4583C411587A14000E2E02A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4583C561587A14000E2E02A /* main.m in Sources */,
+				B4583C5D1587A14000E2E02A /* DDAppDelegate.m in Sources */,
+				B4DC232F158844C9004F6698 /* DDAddressPicker.m in Sources */,
+				B4F06B2E158AD82B00249913 /* DDSecureMessage.m in Sources */,
+				B4F06B2F158AD82B00249913 /* DDSecureMessageCoder_CMS.m in Sources */,
+				B4F06B7E158B822B00249913 /* DDSecureMessageCoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4583C521587A14000E2E02A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4583C531587A14000E2E02A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4583C581587A14000E2E02A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4583C591587A14000E2E02A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4583C611587A14000E2E02A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B4583C621587A14000E2E02A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B4583C641587A14000E2E02A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDSignerOSX/DDSignerOSX-Prefix.pch";
+				INFOPLIST_FILE = "DDSignerOSX/DDSignerOSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4583C651587A14000E2E02A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDSignerOSX/DDSignerOSX-Prefix.pch";
+				INFOPLIST_FILE = "DDSignerOSX/DDSignerOSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4583C3F1587A13F00E2E02A /* Build configuration list for PBXProject "DDSigner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4583C611587A14000E2E02A /* Debug */,
+				B4583C621587A14000E2E02A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4583C631587A14000E2E02A /* Build configuration list for PBXNativeTarget "DDSignerOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4583C641587A14000E2E02A /* Debug */,
+				B4583C651587A14000E2E02A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4583C3C1587A13F00E2E02A /* Project object */;
+}
